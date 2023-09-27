@@ -3,3 +3,7 @@
     --secundary-color: hsl(300, 69%, 71%);
     --neutral-color: #fff;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Public+Sans:wght@300;700&display=swap');

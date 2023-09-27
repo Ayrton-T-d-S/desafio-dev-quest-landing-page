@@ -1,0 +1,39 @@
+body {
+    font-size: 62.5%;
+    background: url(/src/images/bg-desktop.svg);
+    background-color: var(--primary-color);
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.header h1:before {
+    content: url(/src/images/logo.svg);
+}
+
+.hero {
+    display: grid;
+    grid-template-areas: "picture text";
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.4em;
+}
+
+.hero .picture {
+    grid-area: picture;
+
+}
+
+.hero .text {
+    grid-area: text;
+    color: var(--neutral-color);
+}
+
+.hero .text h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero p {
+    font-family: 'Open Sans', sans-serif;
+}
