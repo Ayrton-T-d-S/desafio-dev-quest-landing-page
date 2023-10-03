@@ -26,6 +26,10 @@ body {
 
 }
 
+.hero .picture img {
+    width: 100%; 
+}
+
 .hero .text {
     grid-area: text;
     color: var(--neutral-color);
@@ -47,8 +51,8 @@ body {
     margin-bottom: 1.5em;
 }
 
-.hero .text .button {
-    
+.hero .text .buttom {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hero .text .buttom a {
@@ -65,4 +69,30 @@ body {
 .hero .text .buttom a:hover {
     background-color: var(--secundary-color);
     color: var(--neutral-color);
+}
+
+.footer {
+    height: 50px;
+    margin: 5px 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer a {
+    margin: 8px;
+    padding: 4px;
+
+}
+
+.footer a:hover i {
+    color: var(--secundary-color);
+    transition: 0.3s;
+}
+
+.footer a i {
+    color: var(--neutral-color);
+    border: 5px;
+    font-size: 20px;
+    border-color: var(--neutral-color);
 }
